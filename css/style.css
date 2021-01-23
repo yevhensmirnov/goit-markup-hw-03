@@ -1,0 +1,219 @@
+:root {
+  --logo-color: #2196f3;
+  --link-color: #212121;
+  --contactlink-color: #757575;
+  --footlogo-color: #ffffff;
+  --grey-color: #757575;
+  --accent-color: #2f303a;
+  --second-color: #f5f4fa;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+.headlogo {
+  color: var(--link-color);
+}
+.footlogo {
+  color: var(--footlogo-color);
+}
+.activelink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+.activelink:hover,
+.activelink:focus {
+  color: var(--logo-color);
+}
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--logo-color);
+}
+.contactlink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--contactlink-color);
+}
+.contactlink:hover,
+.contactlink:focus {
+  color: var(--logo-color);
+}
+.linkfoot {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.linkfoot:hover,
+.linkfoot:focus {
+  color: var(--logo-color);
+}
+.head {
+  background: var(--accent-color);
+}
+.sectiontitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--footlogo-color);
+}
+.button {
+  width: 200px;
+  height: 50px;
+  background: var(--logo-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--footlogo-color);
+}
+.features {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+.headline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+.team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+footer {
+  background-color: var(-accent-color);
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--footlogo-color);
+}
+.address:hover,
+.address:focus {
+  color: var(--logo-color);
+}
+.portfoliobutton {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: var(--second-color);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+}
+.portfoliobutton:hover {
+  background: var(--logo-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--footlogo-color);
+}
+.portfoliobutton:focus {
+  background: var(--logo-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--footlogo-color);
+}
+.workname {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--link-color);
+}
+.work {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+li {
+  list-style-type: none;
+}
