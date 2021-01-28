@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --logo-color: #2196f3;
   --link-color: #212121;
@@ -16,6 +21,34 @@
   letter-spacing: 0.03em;
   color: var(--logo-color);
   text-decoration: none;
+  display: inline-block;
+  margin-top: 24px;
+}
+.navlink {
+  display: flex;
+  margin-left: 93px;
+}
+.navlink li {
+  margin-right: 50px;
+}
+.navlink li:last-child {
+  margin-right: 0;
+}
+.navcont {
+  display: flex;
+  margin-left: auto;
+}
+.navcont li {
+  margin-right: 50px;
+}
+.navcont li:last-child {
+  margin-right: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 .headlogo {
   color: var(--link-color);
@@ -32,6 +65,9 @@
   letter-spacing: 0.02em;
   color: var(--logo-color);
   text-decoration: none;
+  display: block;
+
+  margin-top: 32px;
 }
 .activelink:hover,
 .activelink:focus {
@@ -46,6 +82,8 @@
   letter-spacing: 0.02em;
   color: var(--link-color);
   text-decoration: none;
+  display: block;
+  margin-top: 32px;
 }
 .link:hover,
 .link:focus {
@@ -59,6 +97,8 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--contactlink-color);
+  display: block;
+  margin-top: 32px;
 }
 .contactlink:hover,
 .contactlink:focus {
@@ -80,6 +120,7 @@
 }
 .head {
   background: var(--accent-color);
+  text-align: center;
 }
 .sectiontitle {
   font-family: Roboto;
@@ -88,6 +129,10 @@
   font-size: 44px;
   line-height: 60px;
   color: var(--footlogo-color);
+  text-align: center;
+  display: block;
+  margin-left: 452px;
+  margin-right: 452px;
 }
 .button {
   width: 200px;
@@ -101,10 +146,36 @@
   font-size: 16px;
   line-height: 30px;
   color: var(--footlogo-color);
+  display: inline-block;
+  text-align: center;
 }
 .button:hover {
   cursor: pointer;
 }
+.containerfeature {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.containerfeature li {
+  margin-right: 30px;
+}
+.containerfeature li:last-child {
+  margin-right: 0px;
+}
+.wedoing {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.wedoing li {
+  margin-right: 30px;
+}
+.wedoing li:last-child {
+  margin-right: 0px;
+}
+
 .features {
   font-family: Roboto;
   font-style: normal;
@@ -132,6 +203,18 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-color);
+}
+.headlineteam {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.headlineteam li {
+  margin-right: 30px;
+}
+.headlineteam li:last-child {
+  margin-right: 0px;
 }
 .team {
   font-family: Roboto;
@@ -226,4 +309,11 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--link-color);
+}
+.containerfoot {
+  margin-left: 215px;
+}
+.footcontacs {
+  margin-left: 0px;
+  padding-left: 0px;
 }

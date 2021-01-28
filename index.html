@@ -13,29 +13,33 @@
 </head>
 <body>
     <header>
-        <nav>
+        
+            <nav  class="container">
         <a class="logo" href="#" lang="en"> Web<span class="headlogo">Studio</span></a>
-        <ul>
+        <ul class="navlink">
             <li><a class="activelink" href="index.html">Студия</a></li>
             <li><a class="link" href="portfolio.html">Портфолио</a></li>
             <li><a class="link" href="#">Контакты</a></li>
         </ul>
-        </nav>
-        <ul>
+            
+        <ul class="navcont">
             <li><a class="contactlink" href="mailto:info.defstudio.com">info.defstudio.com</a></li>
             <li><a class="contactlink" href="tel:+380961111111">+380961111111</a></li>
         </ul>
+            </nav>
+        
+
         
     </header>
     <main>
     <section class="head">
-        <h1 class="sectiontitle">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <h1 class="sectiontitle">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
         <button class="button">Заказать услугу</button>
     </section>
     <section>
         <h2 hidden>Скрытый заголовок</h2>
-        <ul>
-            <li>
+        <ul class="containerfeature">
+            <li class="li-containerfeature">
                 <h3 class="feature">Внимание к деталям</h3>
                 <p class="features">Идейные соображения, а также начало повседневнной работы по формированию позиции.</p>
             </li>
@@ -55,7 +59,7 @@
     </section>
     <section>
         <h2 class="headline">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="wedoing">
             <li>
                 <img src="./css/img/box1.png" alt="Компьютер">
             </li>
@@ -70,7 +74,7 @@
     </section>
     <section>
         <h2 class="headline">Наша команда</h2>
-        <ul>
+        <ul class="headlineteam">
             <li>
                 <img src="./css/img/tc1.jpg" width=270 alt="Фото Игоря Демьяненко">
                 <h3 class="name">Игорь Демьяненко</h3>
@@ -95,12 +99,14 @@
     </section>
     </main>
     <footer>
+        <div class="containerfoot">
         <a class="logo" href="#" lang="en"> Web<span class="footlogo">Studio</span></a>
         <address class="address">г. Киев, пр-т Леси Украинки 26</address>
-        <ul>
+        <ul class="footcontacs">
             <li><a class="linkfoot" href="mailto:info.defstudio.com">info.defstudio.com</a></li>
             <li><a class="linkfoot" href="tel:+380961111111">+380961111111</a></li>
         </ul>
+        </div>
     </footer>
 </body>
 </html>
