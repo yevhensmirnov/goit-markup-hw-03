@@ -241,6 +241,23 @@ footer {
 .address:focus {
   color: var(--logo-color);
 }
+
+.portbutton {
+  display: flex;
+  margin-left: 495px;
+}
+.portbutton li {
+  margin-right: 8px;
+}
+.ourwork {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.ourwork li {
+  margin-right: 30px;
+}
 .portfoliobutton {
   background: var(--second-color);
   border-radius: 4px;
