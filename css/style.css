@@ -12,6 +12,42 @@
   --accent-color: #2f303a;
   --second-color: #f5f4fa;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.navlink {
+  display: flex;
+  align-items: center;
+}
+.sitenav {
+  display: flex;
+}
+.sitenav .navlist:not(:last-child) {
+  margin-right: 50px;
+}
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -21,42 +57,18 @@
   letter-spacing: 0.03em;
   color: var(--logo-color);
   text-decoration: none;
-  display: inline-block;
-  margin-top: 24px;
-}
-.navlink {
-  display: flex;
-  margin-left: 93px;
-}
-.navlink li {
-  margin-right: 50px;
-}
-.navlink li:last-child {
-  margin-right: 0;
-}
-.navcont {
-  display: flex;
-  margin-left: auto;
-}
-.navcont li {
-  margin-right: 50px;
-}
-.navcont li:last-child {
-  margin-right: 0;
-}
-.container {
-  display: flex;
-  align-items: center;
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .headlogo {
   color: var(--link-color);
 }
-.footlogo {
-  color: var(--footlogo-color);
-}
+
 .activelink {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -65,15 +77,15 @@
   letter-spacing: 0.02em;
   color: var(--logo-color);
   text-decoration: none;
-  display: block;
-
-  margin-top: 32px;
 }
 .activelink:hover,
 .activelink:focus {
   color: var(--logo-color);
 }
 .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -82,12 +94,17 @@
   letter-spacing: 0.02em;
   color: var(--link-color);
   text-decoration: none;
-  display: block;
-  margin-top: 32px;
 }
 .link:hover,
 .link:focus {
   color: var(--logo-color);
+}
+.headcontacts {
+  margin-left: auto;
+  display: flex;
+}
+.headcontacts .contactlist:not(:last-child) {
+  margin-right: 50px;
 }
 .contactlink {
   font-family: Roboto;
@@ -97,42 +114,30 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--contactlink-color);
-  display: block;
-  margin-top: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contactlink:hover,
 .contactlink:focus {
   color: var(--logo-color);
 }
-.linkfoot {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-.linkfoot:hover,
-.linkfoot:focus {
-  color: var(--logo-color);
-}
+
 .head {
   background: var(--accent-color);
+  width: auto;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .sectiontitle {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   color: var(--footlogo-color);
-  text-align: center;
-  display: block;
-  margin-left: 452px;
-  margin-right: 452px;
 }
 .button {
   width: 200px;
@@ -146,36 +151,31 @@
   font-size: 16px;
   line-height: 30px;
   color: var(--footlogo-color);
-  display: inline-block;
-  text-align: center;
+  padding: 10px 32px;
 }
 .button:hover {
   cursor: pointer;
 }
-.containerfeature {
-  display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
+.features-section {
+  padding: 94px 0;
 }
-.containerfeature li {
+.features-section .list {
+  display: flex;
+}
+.features-section .featurelist:not(:last-child) {
   margin-right: 30px;
 }
-.containerfeature li:last-child {
-  margin-right: 0px;
+.feature {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--link-color);
+  margin-bottom: 10px;
 }
-.wedoing {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 215px;
-  margin-right: 215px;
-}
-.wedoing li {
-  margin-right: 30px;
-}
-.wedoing li:last-child {
-  margin-right: 0px;
-}
-
 .features {
   font-family: Roboto;
   font-style: normal;
@@ -185,6 +185,21 @@
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
+.products-section {
+  padding-bottom: 94px;
+}
+.products {
+  display: flex;
+}
+.productslist {
+  margin: 30px;
+}
+.teamlist {
+  display: flex;
+}
+.teamlist li:not(:last-child) {
+  margin-right: 30px;
+}
 .name {
   font-family: Roboto;
   font-style: normal;
@@ -193,6 +208,7 @@
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--link-color);
+  padding-top: 30px;
 }
 .headline {
   font-family: Roboto;
@@ -203,18 +219,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-color);
-}
-.headlineteam {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 215px;
-  margin-right: 215px;
-}
-.headlineteam li {
-  margin-right: 30px;
-}
-.headlineteam li:last-child {
-  margin-right: 0px;
+  margin-bottom: 50px;
 }
 .team {
   font-family: Roboto;
@@ -224,39 +229,6 @@
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--grey-color);
-}
-footer {
-  background-color: var(--accent-color);
-}
-.address {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--footlogo-color);
-}
-.address:hover,
-.address:focus {
-  color: var(--logo-color);
-}
-
-.portbutton {
-  display: flex;
-  margin-left: 495px;
-}
-.portbutton li {
-  margin-right: 8px;
-}
-.ourwork {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 215px;
-  margin-right: 215px;
-}
-.ourwork li {
-  margin-right: 30px;
 }
 .portfoliobutton {
   background: var(--second-color);
@@ -316,21 +288,4 @@ body {
 }
 li {
   list-style-type: none;
-}
-.feature {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--link-color);
-}
-.containerfoot {
-  margin-left: 215px;
-}
-.footcontacs {
-  margin-left: 0px;
-  padding-left: 0px;
 }
