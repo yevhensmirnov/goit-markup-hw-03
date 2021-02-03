@@ -230,6 +230,55 @@ img {
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
+.footcontainer {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+footer {
+  background-color: var(--accent-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--footlogo-color);
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.address:hover,
+.address:focus {
+  color: var(--logo-color);
+}
+.footlogo {
+  color: var(--footlogo-color);
+  margin-bottom: 20px;
+  margin-right: 0;
+  padding: 0;
+  display: inline-block;
+}
+.linkfoot {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-bottom: 9px;
+  display: inline-block;
+}
+.linkfoot:hover,
+.linkfoot:focus {
+  color: var(--logo-color);
+}
 .portfoliobutton {
   background: var(--second-color);
   border-radius: 4px;
