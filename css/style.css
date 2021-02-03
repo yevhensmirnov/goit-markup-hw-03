@@ -279,6 +279,15 @@ footer {
 .linkfoot:focus {
   color: var(--logo-color);
 }
+.portfoliocontainer {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.portfolio {
+  padding: 94px 0;
+}
 .portfoliobutton {
   background: var(--second-color);
   border-radius: 4px;
@@ -290,6 +299,8 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-color);
+  text-align: center;
+  padding: 6px 22px;
 }
 .portfoliobutton:hover {
   background: var(--logo-color);
@@ -313,6 +324,21 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--footlogo-color);
+}
+.portfolio-button-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.buttonlist + .buttonlist {
+  margin-left: 8px;
+}
+.projectslist {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-item {
+  margin: 15px;
 }
 .workname {
   font-family: Roboto;
