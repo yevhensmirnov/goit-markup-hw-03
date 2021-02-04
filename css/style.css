@@ -336,6 +336,10 @@ footer {
 .projectslist {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
+}
+.projectslist:nth-child(3n) {
+  margin-right: 0px;
 }
 .project-item {
   margin: 15px;
